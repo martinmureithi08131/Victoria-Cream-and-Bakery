@@ -260,7 +260,7 @@ with st.sidebar:
 # ─────────────────────────────────────────────
 # 9. MAIN CONTENT
 # ─────────────────────────────────────────────
-st.title("🎂 Victoria Cream & Bakery — Business System")
+st.title("🎂 Victoria Cream & Bakery  Business System")
 
 tab_labels = ["🎂 Sales & Orders", "🛒 Ingredients", "💳 Debts & Credit", "📈 Cashflow"]
 if st.session_state.role == "admin":
