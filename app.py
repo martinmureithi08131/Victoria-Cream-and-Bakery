@@ -488,7 +488,7 @@ with tab4:
 if tab5:
     with tab5:
         st.subheader("⚙️ User Management")
-        st.info("Only admins can see this tab. Passwords are stored as SHA-256 hashes — never plain text.")
+        st.info("Only admins can see this tab. Passwords are stored as SHA-256 hashes  never plain text.")
 
         col1, col2 = st.columns([1, 2])
         with col1:
