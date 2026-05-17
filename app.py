@@ -127,7 +127,7 @@ if "logged_in" not in st.session_state:
 
 if not st.session_state.logged_in:
     st.markdown('<div class="login-title" style="text-align:center;margin-top:60px;">🎂 Victoria Cream & Bakery</div>', unsafe_allow_html=True)
-    st.markdown('<div class="login-sub" style="text-align:center;">Business Management System — Sign In</div>', unsafe_allow_html=True)
+    st.markdown('<div class="login-sub" style="text-align:center;">Business Management System  Sign In</div>', unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
 
     _, col, _ = st.columns([1, 1.2, 1])
